@@ -25,6 +25,7 @@ import {
     loginAsGuest,
     loginWithGoogle
 } from 'utils/redux';
+import { showToast } from 'utils';
 
 /**
  * type checking.
@@ -62,16 +63,24 @@ function WelcomeScreen({ navigation }: WelcomeScreenProps) {
      */
     useEffect(
         () => {
-            console.log({
-                loginError,
-                loginSuccess
-            });
-
             if (loginSuccess) {
                 goToApp();
             };
         },
         [loginSuccess]
+    );
+
+
+    /**
+     * handles login redux state.
+     */
+    useEffect(
+        () => {
+            if (loginError) {
+             showToast(loginError);
+            };
+        },
+        [loginError]
     );
 
     /**

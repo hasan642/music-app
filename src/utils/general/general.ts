@@ -5,9 +5,9 @@
 
 import {
     GoogleSignin,
-    User,
-    statusCodes
+    User
 } from "@react-native-community/google-signin";
+import Toast from 'react-native-simple-toast';
 
 /**
  * A function that handles signin with google.
@@ -38,8 +38,20 @@ async function completeWithGoogle(): Promise<User> {
 };
 
 /**
+ * Shows a toast.
+ */
+function showToast(message: string) {
+    Toast.showWithGravity(
+        message,
+        Toast.LONG,
+        Toast.BOTTOM
+    );
+};
+
+/**
  * export all exportable functions.
  */
 export {
-    completeWithGoogle
+    completeWithGoogle,
+    showToast
 };

@@ -19,6 +19,10 @@ function getError(status: number): string {
             error = 'unauthorized';
             break;
 
+        case 403:
+            error = 'forbidden'
+            break;
+            
         case 404:
             error = 'not found';
             break;

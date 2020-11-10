@@ -18,7 +18,7 @@
 ### Installation
 ```sh
 $ git clone https://github.com/hasanal1995/music-app.git
-$ cd music-app-reactnative
+$ cd music-app
 $ yarn
 $ cd ios && pod install
 ```

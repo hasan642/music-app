@@ -12,6 +12,7 @@ import {
 } from './models';
 import { SHARED_VARIABLES } from 'config';
 import { User } from 'utils';
+import getError from './problems';
 
 /**
  * Gets all artists.
@@ -46,7 +47,7 @@ export async function getArtists(page: number): Promise<ApiTypes.GetArtists> {
     } catch (e) {
         return {
             kind: 'REJECTED',
-            error: e
+            error: getError(e.response.status)
         };
     };
 };
@@ -84,7 +85,7 @@ export async function getAlbums(artistId: string): Promise<ApiTypes.GetAlbums> {
     } catch (e) {
         return {
             kind: 'REJECTED',
-            error: e
+            error: getError(e.response.status)
         };
     };
 };
@@ -132,10 +133,9 @@ export async function searchTracks(searchTerm: string): Promise<ApiTypes.GetTrac
         };
 
     } catch (e) {
-        console.log('e is,', e)
         return {
             kind: 'REJECTED',
-            error: e
+            error: getError(e.response.status)
         };
     };
 };
@@ -172,7 +172,7 @@ export async function getTracks(artistId: number): Promise<ApiTypes.GetTracks> {
     } catch (e) {
         return {
             kind: 'REJECTED',
-            error: e
+            error: getError(e.response.status)
         };
     };
 };
@@ -209,10 +209,9 @@ export async function getTrack(trackId: number): Promise<ApiTypes.GetTrack> {
         };
 
     } catch (e) {
-        console.log('e is', e)
         return {
             kind: 'REJECTED',
-            error: e
+            error: getError(e.response.status)
         };
     };
 };
@@ -246,7 +245,7 @@ export async function saveUserToServer(user): Promise<ApiTypes.SaveUserToServer>
     } catch (e) {
         return {
             kind: 'REJECTED',
-            error: e
+            error: getError(e.response.status)
         };
     };
 };
