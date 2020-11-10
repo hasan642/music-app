@@ -49,3 +49,6 @@ Musician is currently extended with the following plugins.
 | React i18next | [https://react.i18next.com/]
 | Device Info | [https://github.com/react-native-device-info/react-native-device-info]
 | Toast | [https://www.npmjs.com/package/react-native-simple-toast]
+
+### Happi-API
+Musician used [Happi](https://happi.dev/docs/music) to manage tracks, artists, albums, and more.
