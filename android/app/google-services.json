@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "245821053515",
+    "firebase_url": "https://test-project-66994.firebaseio.com",
+    "project_id": "test-project-66994",
+    "storage_bucket": "test-project-66994.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245821053515:android:d5454e926b8319004f8bce",
+        "android_client_info": {
+          "package_name": "com.waseet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245821053515-2g9pv63h6s0439579hmd938ia95ehc3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQLpU7LrICctc4xrPsQexL5QVRWQ_25JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245821053515-2g9pv63h6s0439579hmd938ia95ehc3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245821053515-imk4nub9fdgo6sg9kccjvrm2c69c1q59.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awi.waseet-classifieds-ios-reactnative",
+                "app_store_id": "1516581504"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245821053515:android:c7b5ceb0be5bbe904f8bce",
+        "android_client_info": {
+          "package_name": "com.zenhr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245821053515-32c3qpnh8n0gqq21qv8jjfoii8p7hkvr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zenhr",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "245821053515-2g9pv63h6s0439579hmd938ia95ehc3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQLpU7LrICctc4xrPsQexL5QVRWQ_25JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245821053515-2g9pv63h6s0439579hmd938ia95ehc3l.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "245821053515-imk4nub9fdgo6sg9kccjvrm2c69c1q59.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.awi.waseet-classifieds-ios-reactnative",
+                "app_store_id": "1516581504"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
