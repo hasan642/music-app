@@ -48,3 +48,4 @@ Musician is currently extended with the following plugins.
 | Axios | [https://github.com/axios/axios]
 | React i18next | [https://react.i18next.com/]
 | Device Info | [https://github.com/react-native-device-info/react-native-device-info]
+| Toast | [https://www.npmjs.com/package/react-native-simple-toast]
